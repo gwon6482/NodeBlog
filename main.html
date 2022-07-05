@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+
+
+    <style>
+        .headline {
+            text-align: center;
+        }
+
+        label {
+            width: 120px;
+            float: left;
+        }
+
+        #login_ul > li {
+            margin: 10px;
+        }
+
+        #login_button {
+            width: 100px;
+        }
+
+        #signup_button {
+            width: 100px;
+        }
+
+        #signup_ul > li {
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1 class="headline">main page</h1>
+
+    <article>
+        <section>
+            <form action="post">
+                <fieldset>
+                    <legend>Login</legend>
+
+                    <ul type="None" id="login_ul">
+                        <li>
+                            <label for="id_input">ID</label>
+                            <input type="text" id="id_input">
+                           
+                        </li>
+                        <li>
+                            <label for="pw_input">PassWord</label>
+                            <input type="text" id="pw_input">
+                        </li>
+                        <li>
+                            <button id="login_button">login</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+
+            <form action="post">
+                <fieldset>
+                    <legend>sign up</legend>
+
+                    <ul type="None" id="signup_ul">
+                        <li>
+                            <label for="signup_id">ID</label>
+                            <input type="text" id="signup_id">
+                            <button>duplication check</button>
+
+                        </li>
+                        <li>
+                            <label for="signup_pw">Password</label>
+                            <input type="text" id="signup_pw">
+
+                        </li>
+                        <li>
+                            <label for="signup_name">Name</label>
+                            <input type="text" id="signup_name">
+
+                        </li>
+                        <button id="signup_button">sign up</button>
+                        
+                    </ul>
+
+                </fieldset>
+
+
+
+            </form>
+
+
+        </section>
+
+    </article>
+
+
+
+
+
+</body>
+</html>
